@@ -1,0 +1,77 @@
+.heading{
+    padding-top: 95px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+form{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-bottom: 55px;
+  }
+#alert{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: red;
+  font-weight: bold;
+  padding: 5px;
+}
+.note{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: red;
+    font-weight: bold;
+    padding: 5px;
+}
+.noDecoration, a:link, a:visited {
+  text-decoration: none;
+}
+.text{
+  color: red; 
+  font-size:0.85rem
+}
+img{
+  max-width:100%;
+  max-height:100%;
+}
+#file-preview-image{
+  height: auto;
+  width: auto;
+}
+#file-preview-pdf{
+  height: 400px;
+  width: 300px;
+}
+.status{
+  height: 20px;
+  width: 20px;
+}
+.line-gap{
+  margin-top: 10px;
+}
+/* .profile-container{
+  padding-top: 95px;
+  padding-right: 300px;
+  padding-left: 300px;
+}
+.unlocked{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: green;
+}
+.locked{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: red;
+} */
+@media only screen and (max-width: 950px) {
+  .spacing{
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+}

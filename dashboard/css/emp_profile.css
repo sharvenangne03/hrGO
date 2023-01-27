@@ -1,0 +1,55 @@
+.profile-heading{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-top: 15px;
+  }
+form{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-bottom: 55px;
+  }
+#start-onboard{
+    margin-top: 8px;
+}
+#alert{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: red;
+  font-weight: bold;
+  padding: 5px;
+}
+.note{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: red;
+    font-weight: bold;
+    padding: 5px;
+}
+.profile-container{
+  padding-top: 95px;
+  padding-right: 300px;
+  padding-left: 300px;
+}
+.unlocked{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: green;
+}
+.locked{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+@media only screen and (max-width: 950px) {
+  .spacing{
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+  }
+

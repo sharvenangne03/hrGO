@@ -1,0 +1,27 @@
+.heading{
+  padding-top: 95px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+form{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  padding-right: 300px;
+  padding-left: 300px;
+  padding-bottom: 55px;
+}
+.notification-msg{
+  font-size: 17px;
+  padding: 5px;
+  border: 1px solid #008080;
+  border-radius: 8px;
+}
+
+  @media only screen and (max-width: 950px) {
+    .spacing{
+      padding-left: 10px;
+      padding-right: 10px;
+      }
+    }

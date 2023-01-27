@@ -1,0 +1,104 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(barcelonyFont/Barcelony.ttf);
+}
+
+/* header CSS */
+body{
+  background-color: #f5f7f6;
+}
+
+.header{
+  position: fixed;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #5ca0f2;
+  background-image: linear-gradient(315deg, #5ca0f2 0%, #f5f7f6 77%);
+}
+
+.logo-name{
+  font-family: myFirstFont;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Sidebar CSS */
+
+.admin-menu-heading{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-top: 13px;
+  font-weight: bold;
+}
+
+.menu-logo{
+  height: 30px;
+}
+
+.first-menu-link{
+  margin-top: 25px;
+}
+
+.menu-links{
+  margin-top: 13px;
+}
+
+hr{
+  width: 70%;
+  margin: auto;
+  height: 10px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #5ca0f2;
+  background-image: linear-gradient(315deg, #5ca0f2 0%, #f5f7f6 57%);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: grey;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media only screen and (max-width: 950px) {
+  .header{
+    border: none;
+  }
+  }
+
+

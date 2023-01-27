@@ -1,0 +1,44 @@
+/* Register - Login  */
+  body{
+    min-height: 100vh; 
+    display: flex; 
+    flex-direction: column;
+  }
+  a:link{
+    text-decoration: none!important;
+  }
+  .display-4{
+    padding-top: 105px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  }
+  #alert{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: red;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 0px;
+  }
+  .form-text{
+    text-align: center;
+  }
+  form{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-bottom: 55px;
+  }
+  @media only screen and (max-width: 950px) {
+  .spacing{
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+  }
+
+  footer{
+    margin-top: auto;
+  }

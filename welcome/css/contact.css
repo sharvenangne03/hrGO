@@ -1,0 +1,10 @@
+form{
+    padding-right: 300px;
+    padding-left: 300px;
+  }
+@media only screen and (max-width: 950px) {
+    .spacing{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    }

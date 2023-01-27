@@ -1,0 +1,46 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(barcelonyFont/Barcelony.ttf);
+}
+
+/* header CSS */
+body{
+    background-color: #f5f7f6;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #5ca0f2;
+    background-image: linear-gradient(315deg, #5ca0f2 0%, #f5f7f6 85%);
+}
+
+.logo-name{
+    font-family: myFirstFont;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.header-menu{
+    margin: auto;
+}
+
+/* footer CSS */
+
+.footer{
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #5ca0f2;
+    background-image: linear-gradient(315deg, #5ca0f2 0%, #f5f7f6 85%); 
+}
+
+
+

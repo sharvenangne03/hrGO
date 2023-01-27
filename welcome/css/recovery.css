@@ -1,0 +1,56 @@
+/* Recovery */
+body{
+    min-height: 100vh; 
+    display: flex; 
+    flex-direction: column;
+  }
+
+  .display-4{
+    padding-top: 105px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  }
+  #empAlert{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: red;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 0px;
+  }
+  #orgAlert{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: red;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 0px;
+  }
+  .form-text{
+    text-align: center;
+  }
+  form{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-bottom: 55px;
+  }
+  .details{
+    text-align: center;
+  }
+  #empRecover, #orgRecover{
+    margin-top: 8px;
+  }
+  @media only screen and (max-width: 950px) {
+  .spacing{
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+  }
+  footer{
+    margin-top: auto;
+  }
